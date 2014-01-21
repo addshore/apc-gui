@@ -1,0 +1,15 @@
+Version 1.0.3
+ o FIX: reloading of localhost cache
+ o Changed: Selfdetecting supported image type. Possible: GIF/PNG
+
+Version 1.0.2
+ o Note : Users of apc_gui of prior versions will have to re-install the
+          apc_cache_info.php file on the configured hosts and locations.
+ o Added: new config parameter: $gif_supported = true/false
+ o Added: Get SERVER_SOFTWARE from environment, if possible
+ o Added: Additional option to have an apc_config_local.php file as
+          configuration file in a directory which is part of include path.
+          Thus overwriting settings in apc_gui config.php file.
+
+Version 1.0.1
+ o Fixed: Typo in config.php - $apc_host replaced with $apc_hosts 

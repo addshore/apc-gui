@@ -1,0 +1,19 @@
+APC GUI Quick install quide
+
+1. Untar the tarball into a directory in your webspace.
+
+2. If you have additional servers, you may add them to the config.php file
+   Refer to the comments in config.php for more info.
+   Otherwise, never mind.. APC-GUI will work out of the box.
+
+3. Don't forget to protect your APC-GUI Directory with .htaccess or something
+
+4. Make sure you have the all-newest APC version running.. or some 
+   GUI-Functions will not work, and you'll get some ugly error messages.
+
+5. Ah, yes, and your PHP will need GD Support.. 
+
+
+That was quick, wasn't it? :-)
+
+
